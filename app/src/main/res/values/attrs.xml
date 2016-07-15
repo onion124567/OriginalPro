@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="ViewfinderView"></declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color"/>
+
+        <attr name="pstsUnderlineColor" format="color"/>
+
+        <attr name="pstsDividerColor" format="color"/>
+
+        <attr name="pstsIndicatorHeight" format="dimension"/>
+
+        <attr name="pstsUnderlineHeight" format="dimension"/>
+
+        <attr name="pstsDividerPadding" format="dimension"/>
+
+        <attr name="pstsTabPaddingLeftRight" format="dimension"/>
+
+        <attr name="pstsScrollOffset" format="dimension"/>
+
+        <attr name="pstsTabBackground" format="reference"/>
+
+        <attr name="pstsShouldExpand" format="boolean"/>
+
+        <attr name="pstsTextAllCaps" format="boolean"/>
+
+        <attr name="zmsTabTextSize" format="dimension"/>
+
+        <attr name="zmsTabTextColor" format="color"/>
+        <attr name="selectedTabTextColor" format="color"/>
+
+        <attr name="zmsSelectedTabTextSize" format="dimension"/>
+
+        <attr name="zmsSelectedTabTextColor" format="color"/>
+    </declare-styleable>
+    <!--
+  自定义textview 时候的test 文件
+  <attr name="textwidth" format="integer"/>
+    <attr name="typeface">
+        <enum name="normal" value="0"/>
+        <enum name="sans" value="1"/>
+        <enum name="serif" value="2"/>
+        <enum name="monospace" value="3"/>
+    </attr>
+
+    <declare-styleable name="RideTextView">
+        <attr name="textwidth" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="lineSpacingExtra" format="dimension"/>
+        <attr name="typeface" />
+        </declare-styleable>
+    -->
+    <!-- 首页广告的效果控件 -->
+    <declare-styleable name="JazzyViewPager">
+        <attr name="style">
+            <enum name="standard" value="0" />
+            <enum name="tablet" value="1" />
+            <enum name="cubein" value="2" />
+            <enum name="cubeout" value="3" />
+            <enum name="flipvertical" value="4" />
+            <enum name="fliphorizontal" value="5" />
+            <enum name="stack" value="6" />
+            <enum name="zoomin" value="7" />
+            <enum name="zoomout" value="8" />
+            <enum name="rotateup" value="9" />
+            <enum name="rotatedown" value="10" />
+            <enum name="accordion" value="11" />
+        </attr>
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="outlineEnabled" format="boolean" />
+        <attr name="outlineColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+
+    <declare-styleable name="CirclePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <!-- 首页广告的效果控件 -->
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="src" format="reference" />
+
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="SpringIndicator">
+
+        <!--tab text color -->
+        <attr name="siTextColor" format="reference" />
+
+        <!--tab text color which is selected-->
+        <attr name="siSelectedTextColor" format="reference" />
+
+        <!--tab item bg -->
+        <attr name="siTextBg" format="reference" />
+
+        <!--tab text size-->
+        <attr name="siTextSize" format="dimension" />
+
+        <!--indicator bg color-->
+        <attr name="siIndicatorColor" format="reference" />
+
+        <!--indicator bg colors. should equals your titles count-->
+        <attr name="siIndicatorColors" format="reference" />
+
+        <!--max indicator radius-->
+        <attr name="siRadiusMax" format="dimension" />
+
+        <!--min indicator radius when moving-->
+        <attr name="siRadiusMin" format="dimension" />
+
+    </declare-styleable>
+    <!-- TODO: implement modes
+        <declare-styleable name="SlideExpandableListView">
+            <attr name="mode">
+                <flag name="single" value="0" />
+                <flag name="multiple" value="1" />
+            </attr>
+        </declare-styleable>
+        -->
+</resources>

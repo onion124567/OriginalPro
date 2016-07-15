@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="ob_dimen_width">100dp</dimen>
+    <dimen name="text_four_eight">24sp</dimen>
+    <dimen name="text_four_two">21sp</dimen>
+    <dimen name="text_four_zero">20sp</dimen>
+    <dimen name="text_three_eight">19sp</dimen>
+    <dimen name="text_three_four">17sp</dimen>
+    <dimen name="text_three_two">16sp</dimen>
+    <dimen name="text_three_six">18sp</dimen>
+    <dimen name="text_two_eight">14sp</dimen>
+    <dimen name="text_two_four">14sp</dimen>
+
+    <dimen name="logo_size">65dp</dimen>
+    <dimen name="logo_big_size">75dp</dimen>
+
+    <dimen name="default_corner_radius">4dp</dimen>
+    <dimen name="default_shadow_radius">4dp</dimen>
+</resources>
